@@ -87,6 +87,10 @@ p {
   margin-right: 10px;
 }
 
+.perfilactual img:hover{
+  transform: scale(2);
+}
+
 input {
   border: none;
   background-color:rgba(191, 222, 226, 0.719);
@@ -224,6 +228,10 @@ height: 90%;
 .profilepic {
   height: 80px;
   margin: 5px;
+}
+
+.profilepic:hover {
+  transform: scale(1.5);
 }
 
 p {
