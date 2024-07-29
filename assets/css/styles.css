@@ -89,6 +89,7 @@ p {
 
 .perfilactual img:hover{
   transform: scale(2);
+  transition-duration: 500ms;
 }
 
 input {
@@ -232,6 +233,7 @@ height: 90%;
 
 .profilepic:hover {
   transform: scale(1.5);
+  transition-duration: 500ms;
 }
 
 p {
