@@ -59,13 +59,15 @@ height: 50%;
   height: 6%;
   font-size: larger;
   color: white;
-  background-color: purple;
+  background-color: #75c9c8;
   align-items: center;
 }
 
 .profilepic {
   height: 50px;
   margin: 5px;
+  border: 2px whitesmoke solid;
+  border-radius: 25px;
 }
 
 p {
@@ -79,7 +81,7 @@ p {
   justify-content:center;
   align-items: center;
   height: 75px;
-  background-color: lightcyan;
+  background-color: #75c9c8;
 }
 
 .perfilactual img{
@@ -221,14 +223,16 @@ height: 90%;
   justify-content: center;
   height: 6%;
   font-size: larger;
-  color: white;
-  background-color: purple;
+  color: black;
+  background-color: #75c9c8;
   align-items: center;
 }
 
 .profilepic {
   height: 80px;
   margin: 5px;
+  border: 3px whitesmoke solid;
+  border-radius: 40px;
 }
 
 .profilepic:hover {
@@ -244,7 +248,7 @@ p {
 .perfilactual{
   display: flex;
   height: 75px;
-  background-color: lightcyan;
+  background-color: #75c9c8;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -252,6 +256,8 @@ p {
 .perfilactual img{
   height: 70px;
   margin-right: 10px;
+  border: 3px white solid;
+  border-radius: 35px;
 }
 #MenuChat {
   background-color: rgb(242, 239, 248) !important;
@@ -260,5 +266,6 @@ p {
 
 #adjuntar {
   height: 10px;
+  font-weight: bold;
 }
 }
